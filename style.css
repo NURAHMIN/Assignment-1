@@ -1,19 +1,19 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f5e6d3; /* soft brown */
+  background-color: #f5e6d3; 
   color: #333;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #8d6748; /* darker brown for contrast */
+  background-color: #8d6748; 
   color: white;
   padding: 20px;
   text-align: center;
 }
 
-/* Apply custom font to headings */
+
 h1, h2, h3 {
   font-family: "Lucida Console", "Courier New", monospace;
 }
