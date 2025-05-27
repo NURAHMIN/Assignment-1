@@ -1,71 +1,33 @@
+/* General styling (optional) */
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f5e6d3; 
-  color: #333;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #8d6748; 
-  color: white;
+  background-color: #f2f2f2;
   padding: 20px;
   text-align: center;
-}
-
-
-h1, h2, h3 {
-  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 nav a {
   margin: 0 10px;
   text-decoration: none;
-  color: #f5e6d3;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
+  color: #333;
 }
 
 main {
   padding: 20px;
 }
 
-img {
-  display: block;
-  margin-top: 20px;
-  max-width: 100%;
-  height: auto;
-  border: 3px solid #8d6748;
-}
 
-table {
+.portrait-img {
   width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-table, th, td {
-  border: 1px solid #444;
-}
-
-th, td {
-  padding: 10px;
-  text-align: left;
-  background-color: #fdfdfd;
-}
-
-th {
-  background-color: #e0e0e0;
-}
-
-a {
-  color: #8d6748;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  max-width: 400px;   
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;  
+  border-radius: 10px; 
 }
